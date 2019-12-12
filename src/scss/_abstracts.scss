@@ -1,0 +1,9 @@
+// Functions, variables, and mixins must come first
+@import '~bootstrap/scss/functions';
+@import '~bootstrap/scss/variables';
+@import '~bootstrap/scss/mixins';
+
+// Custom variables to override Bootstrap
+$theme-colors: (
+    "primary": #006341
+);
